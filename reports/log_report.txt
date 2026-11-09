@@ -1,0 +1,39 @@
+==================================================
+       LINUX SERVER LOG ANALYZER
+==================================================
+Generated At: 2026-11-09 19:48:12.692832
+
+GENERAL LOG SUMMARY
+--------------------------------------------------
+Total Entries : 23
+INFO          : 7
+WARNING       : 3
+ERROR         : 13
+
+ERROR ANALYSIS
+--------------------------------------------------
+Failed login for user admin: 4 time(s)
+Database connection failed: 3 time(s)
+Failed login for user mukesh: 3 time(s)
+Application crashed: 1 time(s)
+Authentication failed: 1 time(s)
+Payment service unavailable: 1 time(s)
+
+WARNING ANALYSIS
+--------------------------------------------------
+High memory usage detected: 1 time(s)
+Disk space running low: 1 time(s)
+High CPU usage detected: 1 time(s)
+
+LOGIN ATTEMPT SUMMARY
+--------------------------------------------------
+admin: 4 failed attempt(s)
+mukesh: 3 failed attempt(s)
+
+SUSPICIOUS ACTIVITY
+--------------------------------------------------
+ALERT: admin - 4 failed login attempts
+
+==================================================
+             ANALYSIS COMPLETED
+==================================================
